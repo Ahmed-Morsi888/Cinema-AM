@@ -31,8 +31,10 @@ export default function RootLayout({
       >
           
         <Navbar/>
-    
-        {children}
+        
+    <div className="mt-[60px]">
+    {children}
+    </div>
 <div className="mt-auto">
 
         <Fotter/>

@@ -14,7 +14,7 @@ const page = () => {
   ]
   const pathname=usePathname();
   return <>
-  <nav className='bg-gray-900 flex justify-between items-center py-3 px-4'>
+  <nav className='bg-gray-700 flex justify-between items-center py-3 px-8 fixed top-0 left-0 z-100 w-full'>
     <section className='flex items-center gap-6'>
 
     <div className='text-2xl font-bold'>
